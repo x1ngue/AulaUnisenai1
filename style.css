@@ -1,8 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  background-color: rgb(90, 89, 89);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 body {
     background-color: #333; /* cinza escuro */
     font-family: Arial, Helvetica, sans-serif;
     color: #fff; /* branco */
     font-size: 16px; /* tamanho de fonte padrão */
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #333 10px;
+    padding: 25px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
   }
   
   h1 {
@@ -30,4 +59,10 @@ body {
     width: 10em;
     height: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* sombra para botões */
+  }
+
+  main img {
+    border-radius: 50%;
+    margin: auto;
+    width: 300px;
   }
